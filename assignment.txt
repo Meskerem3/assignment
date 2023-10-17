@@ -1,0 +1,54 @@
+public class Main {
+    public static void main(String[] args) {
+        // Arithmetic Operators
+        int a = 10;
+
+        int b = 5;
+
+        int addition = a + b;        // Addition
+        int subtraction = a - b;     // Subtraction
+        int multiplication = a * b;  // Multiplication
+        int division = a / b;        // Division
+        int modulus = a % b;         // Modulus
+
+        System.out.println("Addition: " + addition);
+        System.out.println("Subtraction: " + subtraction);
+        System.out.println("Multiplication: " + multiplication);
+        System.out.println("Division: " + division);
+        System.out.println("Modulus: " + modulus);
+
+        // Relational Operators
+        int x = 10;
+        int y = 5;
+
+        // Compare variables
+        if (x > y) {
+            System.out.println("x is greater than y");
+        } else if (x < y) {
+            System.out.println("x is less than y");
+        } else {
+            System.out.println("x is equal to y");
+        }
+
+        // Conditional Statements (if-else)
+        int value = 10;
+
+        if (value > 0) {
+            System.out.println("Value is positive");
+        } else if (value < 0) {
+            System.out.println("Value is negative");
+        } else {
+            System.out.println("Value is zero");
+        }
+
+
+        System.out.println("i am meskerem:");
+        for (int i = 0; i <= 10; i++) {
+            if (i % 2 == 0) {
+                System.out.println("i am meskerem:");
+            }
+        }
+    }
+}
+    
+
